@@ -1,0 +1,71 @@
+
+@font-face {
+  font-family: 'police Batman';
+  src: url(batmfa__.ttf) format('truetype');
+}
+
+
+body{
+    background-color: black;
+}
+
+
+
+:root {
+    --Title: rgb(241, 238, 244);
+  }
+  
+
+.joker{
+color:var(--Title);
+font-family:'police Batman', sans-serif;
+
+}
+
+
+p{
+white-space: pre-wrap;
+color: var(--Title);
+
+}
+
+.sec1 {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+header {
+  background-color: #333; /* Gris foncé */
+  text-align: center;
+  padding: 1em 0;
+}
+
+header h1 {
+  color: yellow; /* Couleur signature de Batman */
+  
+  
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-family:'police Batman', sans-serif;
+}
+
+nav ul li a:hover {
+  color: yellow;
+}
