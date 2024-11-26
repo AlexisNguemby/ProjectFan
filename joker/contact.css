@@ -5,15 +5,20 @@
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #000000;
+    background-color: black;
     color: white;
+    background-image: url(batvsjoke.jpeg);
+    background-position: bottom right;
+    background-repeat: no-repeat;
+
+
 }
 
 .container {
     max-width: 400px;
     margin: 50px auto;
     padding: 20px;
-    background-color: #333;
+    background-color: black;
     border-radius: 10px;
 }
 
@@ -49,7 +54,7 @@ button {
 }
 
 header {
-    background-color: #333; /* Gris foncé */
+    background-color: black; /* Gris foncé */
     text-align: center;
     padding: 1em 0;
   }
@@ -83,7 +88,6 @@ header {
 
 
 
-
 button:hover {
     background-color: #ffcc00;
 }
@@ -92,4 +96,9 @@ button:hover {
     .container {
         padding: 10px;
     }
+}
+
+h1{
+  color: yellow;
+  font-family:'police Batman', sans-serif;
 }

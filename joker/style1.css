@@ -19,6 +19,8 @@ body{
 .joker{
 color:var(--Title);
 font-family:'police Batman', sans-serif;
+padding: 10px;
+  border: 2px solid rgb(10, 218, 107);
 
 }
 
@@ -37,7 +39,7 @@ color: var(--Title);
 }
 
 header {
-  background-color: #333; /* Gris foncé */
+  background-color: black; /* Gris foncé */
   text-align: center;
   padding: 1em 0;
 }
@@ -68,4 +70,20 @@ nav ul li a {
 
 nav ul li a:hover {
   color: yellow;
+}
+
+h3{
+  text-decoration: underline;
+  color: rgb(10, 218, 107);
+  font-size: large;
+}
+
+h2{
+  text-decoration: underline;
+  color: rgb(10, 218, 107);
+  font-size: large;
+}
+
+.Para1{
+  line-height: 3;
 }

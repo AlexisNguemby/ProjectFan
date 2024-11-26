@@ -9,12 +9,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #202020; /* Couleur sombre pour Gotham */
+    background-color: #000000; /* Couleur sombre pour Gotham */
     color: white;
   }
   
   header {
-    background-color: #333; /* Gris foncé */
+    background-color: #000000; /* Gris foncé */
     text-align: center;
     padding: 1em 0;
   }
@@ -88,7 +88,7 @@ body {
   
   /* Footer */
   footer {
-    background-color: #333;
+    background-color: #000000;
     text-align: center;
     padding: 1em 0;
     margin-top: 2em;
