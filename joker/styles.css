@@ -13,6 +13,20 @@ body {
     color: white;
   }
   
+ .video-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+  
+ .idk1{
+   text-align: center;
+   white-space: pre-wrap;
+
+ }
+  
+
   header {
     background-color: #000000; /* Gris foncé */
     text-align: center;
@@ -22,6 +36,7 @@ body {
   header h1 {
     color: yellow; /* Couleur signature de Batman */
     font-family:'police Batman', sans-serif;
+    font-size: 350%;
   }
   
   nav ul {
@@ -99,3 +114,53 @@ body {
     text-decoration: none;
   }
   
+
+.HomeTittle{
+  text-align: center;
+  font-family: 'police Batman';
+  color: yellow;
+  
+}
+
+.personnage img {
+  width: 100%;
+  border: 3px solid yellow;
+  border-radius: 10px;
+}
+  
+  @media screen and (max-width: 768px) {
+    body {
+      font-size: 14px; /* Réduction de la taille de police */
+    }
+  
+    header h1 {
+      font-size: 24px; /* Réduction du titre principal */
+    }
+  
+    nav ul li {
+      margin: 0 10px; /* Réduction des marges entre éléments */
+    }
+
+  
+    .btn {
+      padding: 8px 16px; /* Réduction des paddings pour un meilleur clic sur mobile */
+    }
+  }
+
+  
+  @media screen and (max-width: 767px) {
+    .personnage img {
+        width: auto;
+        max-width: 100%;
+        height: auto;
+        border: none;
+        border-radius: 0;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+  .idk1 {
+    text-align: center;
+    white-space: pre-wrap;
+  }
+}
