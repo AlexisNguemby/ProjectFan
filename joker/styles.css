@@ -1,7 +1,7 @@
 /* Style général */
 @font-face {
   font-family: 'police Batman';
-  src: url(batmfa__.ttf) format('truetype');
+  src: url(batmfa__.ttf) format('truetype'); /* Police special gotham */
 }
 
 
@@ -34,7 +34,7 @@ body {
   }
   
   header h1 {
-    color: yellow; /* Couleur signature de Batman */
+    color: yellow; 
     font-family:'police Batman', sans-serif;
     font-size: 350%;
   }
@@ -128,39 +128,51 @@ body {
   border-radius: 10px;
 }
   
-  @media screen and (max-width: 768px) {
-    body {
-      font-size: 14px; /* Réduction de la taille de police */
-    }
   
-    header h1 {
-      font-size: 24px; /* Réduction du titre principal */
-    }
-  
-    nav ul li {
-      margin: 0 10px; /* Réduction des marges entre éléments */
-    }
 
-  
-    .btn {
-      padding: 8px 16px; /* Réduction des paddings pour un meilleur clic sur mobile */
-    }
-  }
-
-  
-  @media screen and (max-width: 767px) {
-    .personnage img {
-        width: auto;
-        max-width: 100%;
-        height: auto;
-        border: none;
-        border-radius: 0;
-    }
+.idk1 {
+  text-align: center;
+  white-space: pre-wrap;
 }
 
-@media only screen and (max-width: 320px) {
-  .idk1 {
-    text-align: center;
-    white-space: pre-wrap;
+
+html{
+  scroll-behavior:smooth
+}
+.totop{             /* Bouton back to top button*/
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color: #FFBF00;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+/* Réduction pour les tablettes pour le titre de notre page */
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 5vw;
+  }
+}
+
+/* Réduction pour les smartphones */
+@media screen and (max-width: 480px) {
+  header h1 {
+    font-size: 4vw;
+  }
+}
+/* Affiche notre nav verticalement "colum" sur les petites résolutions*/
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* Affiche veritcalement  notre Id personnages*/
+@media (max-width: 768px) {
+  #personnages {
+    flex-direction: column;
+    justify-content: center;
   }
 }

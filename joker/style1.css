@@ -172,46 +172,37 @@ h2{
   }
 }
 
-/* Pour les smartphones en paysage */
-@media screen and (max-width: 767px) and (orientation: landscape) {
-  /* Styles spécifiques pour les smartphones en paysage */
+
+/* Affiche notre nav verticalement "colum" sur les petites résolutions*/
+@media screen and (max-width: 768px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .joker {
+    text-align: center;
+  }
+}
+@media (max-width: 768px) { /* Permet d'afficher mes images 2 par 2 sur 2 lignes */
+  .sec1 img {
+      width: calc(50% - 10px); /* Calcule la moitié de la largeur disponible */
+      max-width: 300px; /* Limite maximale de largeur */
+      height: auto; /* Maintient le rapport d'aspect */
+  }
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 480px) {
-  .sec1 {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 10px;
-    
-   
-    max-width: 100%;
-    width: 100%;
-  }
+html{
+  scroll-behavior:smooth
+}
+.totop{             /* Bouton back to top button*/
+  position: fixed;
+  bottom: 10px;
+  right: 10px;
+  background-color:rgb(10, 218, 107);
+  padding: 20px;
+  border-radius: 20px;
 }
