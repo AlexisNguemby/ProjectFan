@@ -111,7 +111,7 @@ h2{
     border-radius: 10px;
   }
   
-  p {
+  .Para2 {
     white-space: pre-wrap;
     color: var(--Title);
     margin-right: 20%;
@@ -193,7 +193,9 @@ h2{
       height: auto; /* Maintient le rapport d'aspect */
   }
 }
-
+footer{
+  text-align: center;
+}
 
 html{
   scroll-behavior:smooth
