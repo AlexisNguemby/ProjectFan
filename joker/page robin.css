@@ -1,0 +1,284 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+@font-face {
+    font-family: 'police Batman';
+    src: url(batmfa__.ttf) format('truetype');
+}
+
+main {
+    width: 80%;
+    margin: 0 auto;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family:'police Batman', sans-serif;
+}
+
+nav ul li a:hover {
+    color: yellow;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    padding: 50px;
+}
+
+.menu {
+    color: rgb(189, 176, 29);
+    margin: 0 60px;
+    font-family: 'police Batman', sans-serif;
+    font-size: 25px;
+}
+
+body {
+    background-color: black;
+}
+
+form {
+    width: 300px;
+    height: 100px;
+    padding: 10px;
+}
+
+p {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    max-width: 800px;
+    text-align: justify; /* Paragraphe justifié */
+    margin-bottom: 20px; /* Espacement en bas pour aérer */
+}
+
+.main-title {
+    color: rgb(141, 35, 35);
+    text-align: center;
+    font-size: 70px;
+    font-family: 'police Batman', sans-serif;
+    margin-top: 40px;
+    margin-bottom: 97px;
+}
+
+.premiere_presentation {
+    display: flex;
+    align-items: center; /* Aligne le texte et l'image verticalement */
+    justify-content: space-between;
+    margin: 20px 0;
+}
+
+h2 {
+    color: rgb(141, 35, 35);
+    text-align: left;
+    font-family: 'police Batman', sans-serif;
+    font-size: 30px;
+}
+
+h3 {
+    color: rgb(141, 35, 35);
+    text-align: center;
+    font-family: 'police Batman', sans-serif;
+    font-size: 30px;
+}
+
+.descriptionetactu {
+    display: flex;
+    justify-content: flex-start; /* Positionne le contenu sur la gauche */
+    align-items: flex-start; /* Aligne le texte et l'image verticalement */
+    gap: 200px; /* Espace entre l'image et le texte */
+    margin-top: 20px;
+}
+
+.descriptionetactu img {
+    width: 600px; 
+    height: 300px; /* Conserve le ratio de l'image */
+    object-fit: cover;
+    flex-shrink: 0; /* Empêche l'image de rétrécir si l'espace est limité */
+}
+
+.descriptionetactu p {
+    max-width: 500px; /* Limite la largeur du texte */
+}
+
+.video {
+    text-align: center;
+    margin: 0 350px;
+}
+
+.footer {
+    background-color: #000000;
+    display: flex;
+    justify-content: center; /* Centrer horizontalement le contenu */
+    align-items: center; /* Centrer verticalement */
+    flex-direction: column; /* Si le contenu a plusieurs lignes */
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer a {
+    color: yellow;
+    text-decoration: none;
+}
+
+html{
+    scroll-behavior:smooth
+}
+
+.totop{             /* Bouton back to top button*/
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background-color: #FFBF00;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Traits{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.titre3{
+    margin-top: 80px;
+    margin-bottom: 40px;
+}
+
+.fin{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+    /* Réduction de la largeur du main */
+    main {
+        width: 95%; /* Plus de marge pour les petits écrans */
+    }
+
+    /* Navigation en colonne */
+    nav ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    nav ul li {
+        margin: 10px 0;
+    }
+
+    /* Header simplifié */
+    header {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    /* Titre principal centré et ajusté */
+    .main-title {
+        font-size: 50px; /* Réduction de la taille */
+        margin-bottom: 40px;
+    }
+
+    /* Présentation en colonne */
+    .premiere_presentation {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .premiere_presentation img {
+        margin-top: 20px;
+        max-width: 100%;
+        height: auto; /* Adaptation responsive */
+    }
+
+    /* Description et actu en colonne */
+    .descriptionetactu {
+        flex-direction: column;
+        gap: 20px; /* Réduction de l'espacement */
+        align-items: center;
+        text-align: center;
+    }
+
+    .descriptionetactu img {
+        width: 100%;
+        height: auto;
+    }
+
+    .descriptionetactu p {
+        max-width: 100%; /* Texte s'adapte à la largeur */
+    }
+
+    /* Section vidéo centrée */
+    .video {
+        margin: 0 20px; /* Plus de marge pour éviter la surcharge */
+    }
+
+    /* Footer adapté */
+    .footer {
+        padding: 20px;
+    }
+
+    footer a {
+        font-size: 16px; /* Ajustement pour les petits écrans */
+    }
+
+    .totop {
+        padding: 10px;
+        border-radius: 10px;
+    }
+
+    /* Section fin */
+    .fin {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    /* Ajustements supplémentaires pour très petits écrans */
+    nav ul li a {
+        font-size: 14px;
+    }
+
+    .main-title {
+        font-size: 40px;
+    }
+
+    p {
+        font-size: 16px; /* Texte plus lisible sur petits écrans */
+    }
+
+    .premiere_presentation {
+        margin: 10px 0;
+    }
+
+    h2, h3 {
+        font-size: 25px;
+    }
+
+    .totop {
+        padding: 8px;
+        font-size: 12px;
+    }
+}
