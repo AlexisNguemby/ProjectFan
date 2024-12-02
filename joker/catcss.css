@@ -1,0 +1,146 @@
+/* Style général */
+body {
+    font-family: 'police Batman', Arial, sans-serif; /* Police principale */
+    margin: 0;
+    padding: 0;
+    background-color: #000000; /* Fond noir */
+    color: #00ff00; /* Texte vert fluo */
+    line-height: 1.6;
+}
+
+/* Header */
+.header {
+    text-align: center;
+    padding: 20px;
+    background: #111111; /* Fond légèrement plus clair que le reste */
+    color: #00ff00; /* Texte vert fluo */
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    color: #00ff00; /* Texte vert fluo */
+}
+
+.header p {
+    font-size: 1.2em;
+    color: #00ff00; /* Texte vert fluo */
+}
+
+/* Navbar */
+.navbar {
+    background: #111111; /* Fond légèrement plus clair que le reste */
+    padding: 10px 0;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline;
+    margin: 0 15px;
+}
+
+.navbar a {
+    color: #00ff00; /* Texte vert fluo */
+    text-decoration: none;
+    font-size: 1.2em;
+    transition: color 0.3s ease;
+}
+
+.navbar a:hover {
+    color: #33ff33; /* Vert légèrement plus clair au survol */
+}
+
+/* Section */
+.section {
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    background: #111111; /* Fond légèrement plus clair */
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7); /* Ombre verte néon */
+    color: #00ff00; /* Texte vert fluo */
+}
+
+.section h2 {
+    color: #00ff00; /* Texte vert fluo */
+}
+
+.section p {
+    color: #00ff00; /* Texte vert fluo */
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 10px;
+    background: #111111; /* Fond légèrement plus clair */
+    color: #00ff00; /* Texte vert fluo */
+}
+
+/* Images */
+.image {
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 255, 0, 0.7); /* Ombre verte autour des images */
+}
+
+/* Galerie */
+.gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.gallery img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 0 10px rgba(0, 255, 0, 0.7);
+}
+
+.gallery img:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 255, 0, 1); /* Éclat vert au survol */
+}
+
+.BigT {
+    font-family:'police Batman', sans-serif;
+    font-size: 350%;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    
+  }
+ 
+  nav ul li {
+    margin: 0 15px;
+    
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-family:'police Batman', sans-serif;
+  }
+  
+  nav ul li a:hover {
+    color: yellow;
+    
+    
+  }
+
