@@ -26,4 +26,4 @@ Assurez-vous que vous avez un navigateur web moderne pour accéder au site. Aucu
 1. Clonez ce repository sur votre machine locale :
 
 ```bash
-git clone https://github.com/votre-nom-utilisateur/batman-fansite.git
+git clone https://github.com/AlexisNguemby/ProjectFan.git
