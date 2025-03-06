@@ -1,41 +1,29 @@
-# Pokémon Info Fetcher
+# Batman Fansite
 
-Ce projet permet de récupérer et d'afficher des informations détaillées sur les Pokémon via l'API publique de PokeAPI. Vous pouvez obtenir des informations telles que le nom, l'ID, la taille, le poids, les types, les statistiques, les capacités, ainsi qu'une image du Pokémon.
+Bienvenue sur le fansite dédié à l'un des super-héros les plus emblématiques de l'univers DC Comics, Batman. Ce site propose une plongée dans l'univers du Chevalier Noir, avec des sections sur ses aventures, ses alliés, ses ennemis et plus encore.
 
 ## Fonctionnalités
 
-- Récupération des informations d'un Pokémon à partir de son nom.
-- Affichage des données suivantes :
-  - Nom
-  - ID
-  - Taille
-  - Poids
-  - Types
-  - Statistiques de base
-  - Capacités
-  - Image (URL)
-  
+- **Biographie de Batman** : Découvrez l'histoire de Bruce Wayne, ses origines et son parcours en tant que Batman.
+- **Galerie de personnages** : Informations détaillées sur les personnages principaux comme Robin, Alfred, le Joker, et bien d'autres.
+- **Aventures et Comics** : Explorez les aventures épiques de Batman à travers les comics, films et séries.
+- **Multimédia** : Images, vidéos et autres médias qui plongent dans l'univers visuel de Batman.
+- **Actualités** : Suivez les dernières nouveautés et sorties liées à Batman dans l'univers des comics et des films.
+
+## Technologies utilisées
+
+- **HTML** : Structure du site web.
+- **CSS** : Design et mise en page.
+- **JavaScript** : Interaction et dynamique du site.
+- **GitHub Pages** : Pour l'hébergement du site.
+
 ## Prérequis
 
-Avant de lancer ce projet, assurez-vous d'avoir installé Python et les bibliothèques suivantes :
+Assurez-vous que vous avez un navigateur web moderne pour accéder au site. Aucune installation n'est nécessaire pour consulter le fansite, car il est disponible en ligne via GitHub Pages.
 
-- `requests` : pour faire des requêtes HTTP à l'API PokeAPI.
+## Installation et exécution
 
-Vous pouvez installer `requests` en utilisant pip :
+1. Clonez ce repository sur votre machine locale :
 
 ```bash
-pip install requests
-
-## Clonez ce repository sur votre machine locale:
-
-git clone https://github.com/votre-nom-utilisateur/poke-info.git
-
-
-
-
-
-
-
-
-
-
+git clone https://github.com/votre-nom-utilisateur/batman-fansite.git
